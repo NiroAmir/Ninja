@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --headColor: #fff;
+        --headSize: 2rem;
+        --bgc: #fc0;
+        --theWidth: 90vw;
+      }
+      header,
+      article {
+        background-color: var(--bgc);
+        width: var(--theWidth);
+        margin: 10px auto;
+      }
+      h1,
+      h2 {
+        color: var(--headColor);
+        font-size: var(--headSize);
+      }
+      section {
+        padding: 20px;
+      }
+      section p {
+        color: #000;
+        text-align: justify;
+        line-height: 1.5;
+        font-family: serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>The Header</h1>
+    </header>
+    <article>
+      <section>
+        <h2>The Section</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          perspiciatis nisi illum suscipit libero accusamus ad dicta quibusdam
+          laborum quis saepe quam fuga, vitae quasi deleniti, esse velit a
+          tenetur ipsum facilis sint adipisci. Rem reprehenderit optio eaque
+          voluptas sint quia, deserunt, perferendis id maiores dolores dolorum
+          cum. Iusto corrupti vel, ullam assumenda nam error saepe modi, tempora
+          doloremque ad hic commodi fuga aspernatur nemo architecto iste unde
+          nobis facere. Totam excepturi ea assumenda aut, aliquid vel id ullam
+          fugit expedita culpa cumque possimus voluptatem ipsa? Et quidem
+          inventore sed voluptatibus. Fugiat tenetur repellat laudantium, sit
+          expedita mollitia quae in.
+        </p>
+      </section>
+      <section>
+        <h2>The Section</h2>
+        <p>
+          Cupiditate ducimus quaerat velit quo omnis, ad ratione consectetur
+          asperiores eveniet impedit facilis adipisci id error, voluptates sed
+          ipsa in? Esse sit sed sunt distinctio pariatur, eum illum aut
+          nesciunt? A quibusdam vitae deleniti laboriosam recusandae, blanditiis
+          eaque maxime modi animi! Minima saepe sapiente omnis quos quia vel
+          quibusdam tempora nostrum, praesentium repudiandae doloribus
+          reprehenderit odit neque quod rem beatae deleniti quasi provident
+          illum amet porro. Nam officia, aperiam illo, nulla veniam voluptate
+          adipisci assumenda vero error illum dolorum vel impedit odit nobis id
+          doloribus! Distinctio quis reiciendis illum ut accusantium, quod rem
+          dicta nostrum in ullam, aut quos minus?
+        </p>
+      </section>
+    </article>
+  </body>
+</html>
